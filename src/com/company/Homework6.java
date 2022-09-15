@@ -20,6 +20,6 @@ public class Homework6 {
 
         System.out.println("Загальний показник атаки династії Лі: " + LiTotalTroopsStats);
         System.out.println("Загальний показник атаки династії Мінь: " + MinTotalTroopsStats);
-
+//test pull request
     }
 }
