@@ -2,7 +2,7 @@ package com.company;
 
 public class Main {
 
-    public static void Homework6(String[] args) {
+    public static void main(String[] args) {
 
         int LiWarriorStat = 13;
         int LiArcherStat = 24;
@@ -14,7 +14,7 @@ public class Main {
 
 
         int LiTotalTroops = 860 * 3;
-        int MinTotalTroops = (int) ((860 * (double) 1.5) * 3);
+        int MinTotalTroops = (int) ((860 * 1.5) * 3);
         int LiTotalTroopsStats = LiTotalTroops * (LiWarriorStat + LiArcherStat + LiRiderStat);
         int MinTotalTroopsStats = MinTotalTroops * (MinWarriorStat + MinArcherStat + MinRiderStat);
 
