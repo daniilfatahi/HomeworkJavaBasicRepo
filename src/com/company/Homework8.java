@@ -10,7 +10,7 @@ public class Homework8 {
         int max = 6;
         Scanner intScanner = new Scanner(System.in);
         Random myRandom = new Random();
-        int borderRandom = myRandom.nextInt(max-min)+max;
+        int borderRandom = myRandom.nextInt(max-min)+min;
 
 
         System.out.println("Введіть число від 1 до 6: ");
